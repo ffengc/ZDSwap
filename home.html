@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+    Author: modify by 俞沣城
+    Date: 2024-05-05
+-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags-->
+  <!-- Title-->
+  <title>SYSU-软件工程课程设计</title>
+  <!-- Favicon-->
+  <link rel="icon" href="img/core-img/favicon.ico">
+  <!-- Stylesheet-->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Preloader-->
+  <div class="preloader" id="preloader">
+    <div class="spinner-grow text-secondary" role="status">
+      <div class="sr-only">Loading...</div>
+    </div>
+  </div>
+  <!-- Header Area-->
+  <div class="header-area" id="headerArea">
+    <div class="container h-100 d-flex align-items-center justify-content-between">
+      <!-- Logo Wrapper-->
+      <div class="logo-wrapper"><a href="home.html"><img src="img/core-img/logo-small.png" alt=""></a></div>
+      <!-- Search Form-->
+      <div class="top-search-form">
+        <!-- 这里原来是post的，改成get了 -->
+        <form action="" method="POST">
+          <input class="form-control" type="search" placeholder="Enter your keyword">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+      <!-- Navbar Toggler-->
+      <div class="suha-navbar-toggler d-flex flex-wrap" id="suhaNavbarToggler"><span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+  <!-- Sidenav Black Overlay-->
+  <div class="sidenav-black-overlay"></div>
+  <!-- Side Nav Wrapper-->
+  <div class="suha-sidenav-wrapper" id="sidenavWrapper">
+    <!-- Sidenav Profile-->
+    <div class="sidenav-profile">
+      <div class="user-profile"><img src="img/bg-img/9.jpg" alt=""></div>
+      <div class="user-info">
+        <h6 class="user-name mb-0">YanZu Wu</h6>
+        <p class="available-balance">Balance <span>$<span class="counter">523.98</span></span></p>
+      </div>
+    </div>
+    <!-- Sidenav Nav-->
+    <ul class="sidenav-nav">
+      <li><a href="profile.html"><i class="lni lni-user"></i>个人信息</a></li>
+      <li><a href="notifications.html"><i class="lni lni-alarm lni-tada-effect"></i>通知<span
+            class="ml-3 badge badge-warning">1</span></a></li>
+      <!-- <li><a href="pages.html"><i class="lni lni-empty-file"></i>All Pages</a></li> -->
+      <li><a href="wishlist-grid.html"><i class="lni lni-heart"></i>收藏夹</a></li>
+      <li><a href="settings.html"><i class="lni lni-cog"></i>设置</a></li>
+      <li><a href="intro.html"><i class="lni lni-power-switch"></i>退出登录</a></li>
+    </ul>
+    <!-- Go Back Button-->
+    <div class="go-home-btn" id="goHomeBtn"><i class="lni lni-arrow-left"></i></div>
+  </div>
+  <div class="page-content-wrapper">
+    <!-- Hero Slides-->
+    <div class="hero-slides owl-carousel">
+      <!-- Single Hero Slide-->
+      <div class="single-hero-slide" style="background-image: url('img/sysu/nanxiao.png')">
+        <div class="slide-content h-100 d-flex align-items-center">
+          <div class="container">
+            <h4 class="text-white mb-0" data-animation="fadeInUp" data-delay="100ms" data-wow-duration="1000ms">中山大学
+            </h4>
+            <p class="text-white" data-animation="fadeInUp" data-delay="400ms" data-wow-duration="1000ms">南校园</p>
+            <!-- <a class="btn btn-primary btn-sm" href="home.html" data-animation="fadeInUp" data-delay="800ms" data-wow-duration="1000ms">Buy Now</a> -->
+          </div>
+        </div>
+      </div>
+      <!-- Single Hero Slide-->
+      <div class="single-hero-slide" style="background-image: url('img/sysu/shenzhenxiaoqu.png')">
+        <div class="slide-content h-100 d-flex align-items-center">
+          <div class="container">
+            <h4 class="text-white mb-0" data-animation="fadeInUp" data-delay="100ms" data-wow-duration="1000ms">中山大学
+            </h4>
+            <p class="text-white" data-animation="fadeInUp" data-delay="400ms" data-wow-duration="1000ms">深圳校区</p>
+            <!-- <a class="btn btn-success btn-sm" href="home.html" data-animation="fadeInUp" data-delay="500ms" data-wow-duration="1000ms">Buy Now</a> -->
+          </div>
+        </div>
+      </div>
+      <!-- Single Hero Slide-->
+      <div class="single-hero-slide" style="background-image: url('img/sysu/zhuhaixiaoqu.png')">
+        <div class="slide-content h-100 d-flex align-items-center">
+          <div class="container">
+            <h4 class="text-white mb-0" data-animation="fadeInUp" data-delay="100ms" data-wow-duration="1000ms">中山大学
+            </h4>
+            <p class="text-white" data-animation="fadeInUp" data-delay="400ms" data-wow-duration="1000ms">珠海校区</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Product Catagories-->
+    <div class="product-catagories-wrapper pt-3">
+      <div class="container">
+        <div class="section-heading">
+          <h6 class="ml-1">二手商品分类</h6>
+        </div>
+        <div class="product-catagory-wrap">
+          <div class="row">
+            <div class="col-4">
+              <div class="card mb-3 catagory-card">
+                <div class="card-body"><a href="catagory-book.html"><i class="lni lni-heart"></i><span>书籍</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card mb-3 catagory-card">
+                <div class="card-body"><a href="catagory-tickets.html"><i
+                      class="lni lni-juice"></i><span>演出门票</span></a></div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card mb-3 catagory-card">
+                <div class="card-body"><a href="catagory-food.html"><i class="lni lni-pizza"></i><span>食物</span></a>
+                </div>
+              </div>
+            </div>
+            <!-- Single Catagory Card-->
+            <div class="col-4">
+              <div class="card mb-3 catagory-card">
+                <div class="card-body"><a href="catagory-sport.html"><i
+                      class="lni lni-basketball"></i><span>运动</span></a>
+                </div>
+              </div>
+            </div>
+            <!-- Single Catagory Card-->
+            <div class="col-4">
+              <div class="card mb-3 catagory-card">
+                <div class="card-body"><a href="catagory-dresses.html"><i class="lni lni-tshirt"></i><span>装扮</span></a>
+                </div>
+              </div>
+            </div>
+            <!-- Single Catagory Card-->
+            <div class="col-4">
+              <div class="card mb-3 catagory-card">
+                <div class="card-body"><a href="catagory-other.html"><i class="lni lni-island"></i><span>其他</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Top Products-->
+    <div class="top-products-area clearfix">
+      <div class="container">
+        <div class="section-heading d-flex align-items-center justify-content-between">
+          <h6 class="ml-1">最多人收藏的商品</h6><a class="btn btn-danger btn-sm" href="shop-grid.html">查看全部</a>
+        </div>
+        <div class="row">
+          <!-- Single Top Product Card-->
+          <div class="col-6 col-sm-4 col-lg-3">
+            <div class="card top-product-card mb-3">
+              <div class="card-body"><span class="badge badge-success">深圳校区</span><a class="wishlist-btn"
+                  href="home.html"><i class="lni lni-heart"></i></a><a class="product-thumbnail d-block"
+                  href="single-product.html"><img class="mb-2" src="img/product/books/1.png" alt=""></a><a
+                  class="product-title d-block" href="single-product.html">C语言程序设计</a>
+                <p class="sale-price">5元</p>
+                <div class="product-rating"><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i></div><a class="btn btn-success btn-sm add2cart-notify"
+                  href="home.html"><i class="lni lni-plus"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- Single Top Product Card-->
+          <div class="col-6 col-sm-4 col-lg-3">
+            <div class="card top-product-card mb-3">
+              <div class="card-body"><span class="badge badge-primary">广州东校</span><a class="wishlist-btn"
+                  href="home.html"><i class="lni lni-heart"></i></a><a class="product-thumbnail d-block"
+                  href="single-product.html"><img class="mb-2" src="img/product/books/2.png" alt=""></a><a
+                  class="product-title d-block" href="single-product.html">Python编程入门</a>
+                <p class="sale-price">14.79元</p>
+                <div class="product-rating"><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i></div><a class="btn btn-success btn-sm add2cart-notify"
+                  href="home.html"><i class="lni lni-plus"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- Single Top Product Card-->
+          <div class="col-6 col-sm-4 col-lg-3">
+            <div class="card top-product-card mb-3">
+              <div class="card-body"><span class="badge badge-danger">广州南校</span><a class="wishlist-btn"
+                  href="home.html"><i class="lni lni-heart"></i></a><a class="product-thumbnail d-block"
+                  href="single-product.html"><img class="mb-2" src="img/product/dresses/3.png" alt=""></a><a
+                  class="product-title d-block" href="single-product.html">女生自用99新墨镜</a>
+                <p class="sale-price">5元</span></p>
+                <div class="product-rating"><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i></div><a class="btn btn-success btn-sm add2cart-notify"
+                  href="home.html"><i class="lni lni-plus"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- Single Top Product Card-->
+          <div class="col-6 col-sm-4 col-lg-3">
+            <div class="card top-product-card mb-3">
+              <div class="card-body"><span class="badge badge-success">深圳校区</span><a class="wishlist-btn"
+                  href="home.html"><i class="lni lni-heart"></i></a><a class="product-thumbnail d-block"
+                  href="single-product.html"><img class="mb-2" src="img/product/9.png" alt=""></a><a
+                  class="product-title d-block" href="single-product.html">NIKE 黑色（全新）</a>
+                <p class="sale-price">249元</span></p>
+                <div class="product-rating"><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i></div><a class="btn btn-success btn-sm add2cart-notify"
+                  href="home.html"><i class="lni lni-plus"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- Single Top Product Card-->
+          <div class="col-6 col-sm-4 col-lg-3">
+            <div class="card top-product-card mb-3">
+              <div class="card-body"><span class="badge badge-success">深圳校区</span><a class="wishlist-btn"
+                  href="home.html"><i class="lni lni-heart"></i></a><a class="product-thumbnail d-block"
+                  href="single-product.html"><img class="mb-2" src="img/product/8.png" alt=""></a><a
+                  class="product-title d-block" href="single-product.html">宿舍懒人沙发</a>
+                <p class="sale-price">199元</span></p>
+                <div class="product-rating"><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i></div><a class="btn btn-success btn-sm add2cart-notify"
+                  href="home.html"><i class="lni lni-plus"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- Single Top Product Card-->
+          <div class="col-6 col-sm-4 col-lg-3">
+            <div class="card top-product-card mb-3">
+              <div class="card-body"><span class="badge badge-success">深圳校区</span><a class="wishlist-btn"
+                  href="home.html"><i class="lni lni-heart"></i></a><a class="product-thumbnail d-block"
+                  href="single-product.html"><img class="mb-2" src="img/product/4.png" alt=""></a><a
+                  class="product-title d-block" href="single-product.html">优衣库全新polo5件</a>
+                <p class="sale-price">800元</span></p>
+                <div class="product-rating"><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i></div><a class="btn btn-success btn-sm add2cart-notify"
+                  href="home.html"><i class="lni lni-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Cool Facts Area-->
+    <div class="cta-area">
+      <div class="container">
+        <div class="cta-text p-4 p-lg-5" style="background-image: url(img/bg-img/24.jpg)">
+          <h4>春季促销活动！</h4>
+          <p>每天登陆并浏览商品，可以参与平台抽奖！</p><a class="btn btn-danger" href="home.html">开始购物</a>
+        </div>
+      </div>
+    </div>
+    <br>
+    <!-- Footer Nav-->
+    <div class="footer-nav-area" id="footerNav">
+      <div class="container h-100 px-0">
+        <div class="suha-footer-nav h-100">
+          <ul class="h-100 d-flex align-items-center justify-content-between">
+            <li class="active"><a href="home.html"><i class="lni lni-home"></i>首页</a></li>
+            <li><a href="message.html"><i class="lni lni-life-ring"></i>在线客服</a></li>
+            <!-- <li><a href="cart.html"><i class="lni lni-shopping-basket"></i>购物车</a></li> -->
+            <li><a href="pages.html"><i class="lni lni-heart"></i>项目所有页面</a></li>
+            <li><a href="settings.html"><i class="lni lni-cog"></i>设置</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- All JavaScript Files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.animatedheadline.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jarallax.min.js"></script>
+    <script src="js/jarallax-video.min.js"></script>
+    <script src="js/default/jquery.passwordstrength.js"></script>
+    <script src="js/default/dark-mode-switch.js"></script>
+    <script src="js/default/active.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+    Author: modify by 宋文慧
+    Date: 2024-05-02
+-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags-->
+  <!-- Title-->
+  <title>SYSU-软件工程课程设计</title>
+  <!-- Favicon-->
+  <link rel="icon" href="img/core-img/favicon.ico">
+  <!-- Stylesheet-->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Preloader-->
+  <div class="preloader" id="preloader">
+    <div class="spinner-grow text-secondary" role="status">
+      <div class="sr-only">Loading...</div>
+    </div>
+  </div>
+  <!-- Header Area-->
+  <div class="header-area" id="headerArea">
+    <div class="container h-100 d-flex align-items-center justify-content-between">
+      <!-- Back Button-->
+      <div class="back-button"><a href="home.html"><i class="lni lni-arrow-left"></i></a></div>
+      <!-- Page Title-->
+      <div class="page-heading">
+        <h6 class="mb-0">装扮</h6>
+      </div>
+      <!-- Filter Option-->
+      <!-- <div class="filter-option" id="suhaNavbarToggler"><i class="lni lni-cog"></i></div> -->
+      <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+    </div>
+  </div>
+  <!-- Sidenav Black Overlay-->
+  <div class="sidenav-black-overlay"></div>
+  <!-- Side Nav Wrapper-->
+  <div class="suha-sidenav-wrapper filter-nav" id="sidenavWrapper">
+    <!-- Catagory Sidebar Area-->
+    <div class="catagory-sidebar-area">
+      <!-- Filter Title-->
+      <h5 class="mb-3">Filter</h5>
+      <!-- Catagory-->
+      <div class="widget catagory mb-4">
+        <h6 class="widget-title mb-3">Product Brand</h6>
+        <div class="widget-desc">
+          <!-- Single Checkbox-->
+          <div class="custom-control custom-checkbox d-flex align-items-center mb-2">
+            <input class="custom-control-input" id="customCheck1" type="checkbox">
+            <label class="custom-control-label" for="customCheck1">Zara</label>
+          </div>
+          <!-- Single Checkbox-->
+          <div class="custom-control custom-checkbox d-flex align-items-center mb-2">
+            <input class="custom-control-input" id="customCheck2" type="checkbox">
+            <label class="custom-control-label" for="customCheck2">Gucci</label>
+          </div>
+          <!-- Single Checkbox-->
+          <div class="custom-control custom-checkbox d-flex align-items-center mb-2">
+            <input class="custom-control-input" id="customCheck3" type="checkbox">
+            <label class="custom-control-label" for="customCheck3">Addidas</label>
+          </div>
+          <!-- Single Checkbox-->
+          <div class="custom-control custom-checkbox d-flex align-items-center mb-2">
+            <input class="custom-control-input" id="customCheck4" type="checkbox">
+            <label class="custom-control-label" for="customCheck4">Nike</label>
+          </div>
+          <!-- Single Checkbox-->
+          <div class="custom-control custom-checkbox d-flex align-items-center mb-2">
+            <input class="custom-control-input" id="customCheck5" type="checkbox">
+            <label class="custom-control-label" for="customCheck5">Denim</label>
+          </div>
+        </div>
+      </div>
+      <!-- Color-->
+      <div class="widget color mb-4">
+        <h6 class="widget-title mb-3">Color Family</h6>
+        <div class="widget-desc">
+          <!-- Single Checkbox-->
+          <div class="custom-control custom-checkbox d-flex align-items-center mb-2">
+            <input class="custom-control-input" id="customCheck6" type="checkbox">
+            <label class="custom-control-label" for="customCheck6">Purple</label>
+          </div>
+          <!-- Single Checkbox-->
+          <div class="custom-control custom-checkbox d-flex align-items-center mb-2">
+            <input class="custom-control-input" id="customCheck7" type="checkbox">
+            <label class="custom-control-label" for="customCheck7">Black</label>
+          </div>
+          <!-- Single Checkbox-->
+          <div class="custom-control custom-checkbox d-flex align-items-center mb-2">
+            <input class="custom-control-input" id="customCheck8" type="checkbox">
+            <label class="custom-control-label" for="customCheck8">White</label>
+          </div>
+          <!-- Single Checkbox-->
+          <div class="custom-control custom-checkbox d-flex align-items-center mb-2">
+            <input class="custom-control-input" id="customCheck9" type="checkbox">
+            <label class="custom-control-label" for="customCheck9">Red</label>
+          </div>
+          <!-- Single Checkbox-->
+          <div class="custom-control custom-checkbox d-flex align-items-center mb-2">
+            <input class="custom-control-input" id="customCheck10" type="checkbox">
+            <label class="custom-control-label" for="customCheck10">Pink</label>
+          </div>
+        </div>
+      </div>
+      <!-- Size-->
+      <div class="widget size mb-4">
+        <h6 class="widget-title mb-3">Size</h6>
+        <div class="widget-desc">
+          <!-- Single Checkbox-->
+          <div class="custom-control custom-checkbox d-flex align-items-center mb-2">
+            <input class="custom-control-input" id="customCheck21" type="checkbox">
+            <label class="custom-control-label" for="customCheck21">Xtra Large</label>
+          </div>
+          <!-- Single Checkbox-->
+          <div class="custom-control custom-checkbox d-flex align-items-center mb-2">
+            <input class="custom-control-input" id="customCheck22" type="checkbox">
+            <label class="custom-control-label" for="customCheck22">Large</label>
+          </div>
+          <!-- Single Checkbox-->
+          <div class="custom-control custom-checkbox d-flex align-items-center mb-2">
+            <input class="custom-control-input" id="customCheck23" type="checkbox">
+            <label class="custom-control-label" for="customCheck23">Midium</label>
+          </div>
+          <!-- Single Checkbox-->
+          <div class="custom-control custom-checkbox d-flex align-items-center mb-2">
+            <input class="custom-control-input" id="customCheck24" type="checkbox">
+            <label class="custom-control-label" for="customCheck24">Small</label>
+          </div>
+          <!-- Single Checkbox-->
+          <div class="custom-control custom-checkbox d-flex align-items-center mb-2">
+            <input class="custom-control-input" id="customCheck25" type="checkbox">
+            <label class="custom-control-label" for="customCheck25">Extra Small</label>
+          </div>
+        </div>
+      </div>
+      <!-- Ratings-->
+      <div class="widget ratings mb-4">
+        <h6 class="widget-title mb-3">Ratings</h6>
+        <div class="widget-desc">
+          <!-- Single Checkbox-->
+          <div class="custom-control custom-checkbox d-flex align-items-center mb-2">
+            <input class="custom-control-input" id="customCheck11" type="checkbox">
+            <label class="custom-control-label" for="customCheck11">5 star</label>
+          </div>
+          <!-- Single Checkbox-->
+          <div class="custom-control custom-checkbox d-flex align-items-center mb-2">
+            <input class="custom-control-input" id="customCheck12" type="checkbox">
+            <label class="custom-control-label" for="customCheck12">4 star</label>
+          </div>
+          <!-- Single Checkbox-->
+          <div class="custom-control custom-checkbox d-flex align-items-center mb-2">
+            <input class="custom-control-input" id="customCheck13" type="checkbox">
+            <label class="custom-control-label" for="customCheck13">3 star</label>
+          </div>
+          <!-- Single Checkbox-->
+          <div class="custom-control custom-checkbox d-flex align-items-center mb-2">
+            <input class="custom-control-input" id="customCheck14" type="checkbox">
+            <label class="custom-control-label" for="customCheck14">2 star</label>
+          </div>
+          <!-- Single Checkbox-->
+          <div class="custom-control custom-checkbox d-flex align-items-center mb-2">
+            <input class="custom-control-input" id="customCheck15" type="checkbox">
+            <label class="custom-control-label" for="customCheck15">1 star</label>
+          </div>
+        </div>
+      </div>
+      <!-- Payment Type-->
+      <div class="widget payment-type mb-4">
+        <h6 class="widget-title mb-3">Payment Type</h6>
+        <div class="widget-desc">
+          <!-- Single Checkbox-->
+          <div class="custom-control custom-checkbox d-flex align-items-center mb-2">
+            <input class="custom-control-input" id="customCheck16" type="checkbox">
+            <label class="custom-control-label" for="customCheck16">Cash On Delivery</label>
+          </div>
+          <!-- Single Checkbox-->
+          <div class="custom-control custom-checkbox d-flex align-items-center mb-2">
+            <input class="custom-control-input" id="customCheck17" type="checkbox">
+            <label class="custom-control-label" for="customCheck17">Paypal</label>
+          </div>
+          <!-- Single Checkbox-->
+          <div class="custom-control custom-checkbox d-flex align-items-center mb-2">
+            <input class="custom-control-input" id="customCheck18" type="checkbox">
+            <label class="custom-control-label" for="customCheck18">Check Payment</label>
+          </div>
+          <!-- Single Checkbox-->
+          <div class="custom-control custom-checkbox d-flex align-items-center mb-2">
+            <input class="custom-control-input" id="customCheck19" type="checkbox">
+            <label class="custom-control-label" for="customCheck19">Payonner</label>
+          </div>
+          <!-- Single Checkbox-->
+          <div class="custom-control custom-checkbox d-flex align-items-center mb-2">
+            <input class="custom-control-input" id="customCheck20" type="checkbox">
+            <label class="custom-control-label" for="customCheck20">Mobile Banking</label>
+          </div>
+        </div>
+      </div>
+      <!-- Apply Filter-->
+      <div class="apply-filter-btn"><a class="btn btn-success" href="">Apply Filter</a></div>
+    </div>
+    <!-- Go Back Button-->
+    <div class="go-home-btn" id="goHomeBtn"><i class="lni lni-arrow-left"></i></div>
+  </div>
+  <div class="page-content-wrapper">
+    <br>
+    <!-- Top Products-->
+    <div class="top-products-area">
+      <div class="container">
+        <div class="section-heading d-flex align-items-center justify-content-between">
+          <h6 class="ml-1">装扮产品</h6>
+        </div>
+        <div class="row">
+          <!-- Single Top Product Card-->
+          <div class="col-6 col-sm-4 col-lg-3">
+            <div class="card top-product-card mb-3">
+              <div class="card-body"><span class="badge badge-success">深圳校区</span><a class="wishlist-btn" href="catagory-dresses.html"><i
+                    class="lni lni-heart"></i></a><a class="product-thumbnail d-block" href="single-product.html"><img
+                    class="mb-2" src="img\product\dresses\1.png" alt=""></a><a class="product-title d-block"
+                  href="single-product.html">白色外套</a>
+                <p class="sale-price">100元</span></p>
+                <div class="product-rating"><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i></div><a class="btn btn-success btn-sm add2cart-notify" href="catagory-dresses.html"><i
+                    class="lni lni-plus"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- Single Top Product Card-->
+          <div class="col-6 col-sm-4 col-lg-3">
+            <div class="card top-product-card mb-3">
+              <div class="card-body"><span class="badge badge-danger">广州南校</span><a class="wishlist-btn" href="catagory-dresses.html"><i
+                    class="lni lni-heart"></i></a><a class="product-thumbnail d-block" href="single-product.html"><img
+                    class="mb-2" src="img\product\dresses\2.png" alt=""></a><a class="product-title d-block"
+                  href="single-product.html">蓝色外套</a>
+                <p class="sale-price">100元</p>
+                <div class="product-rating"><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i></div><a class="btn btn-success btn-sm add2cart-notify" href="catagory-dresses.html"><i
+                    class="lni lni-plus"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- Single Top Product Card-->
+          <div class="col-6 col-sm-4 col-lg-3">
+            <div class="card top-product-card mb-3">
+              <div class="card-body"><span class="badge badge-danger">广州南校</span><a class="wishlist-btn" href="catagory-dresses.html"><i
+                    class="lni lni-heart"></i></a><a class="product-thumbnail d-block" href="single-product.html"><img
+                    class="mb-2" src="img\product\dresses\3.png" alt=""></a><a class="product-title d-block"
+                  href="single-product.html">女生自用99新太阳镜</a>
+                <p class="sale-price">5元</p>
+                <div class="product-rating"><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i></div><a class="btn btn-success btn-sm add2cart-notify" href="catagory-dresses.html"><i
+                    class="lni lni-plus"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- Single Top Product Card-->
+          <div class="col-6 col-sm-4 col-lg-3">
+            <div class="card top-product-card mb-3">
+              <div class="card-body"><span class="badge badge-warning">珠海校区</span><a class="wishlist-btn" href="catagory-dresses.html"><i
+                    class="lni lni-heart"></i></a><a class="product-thumbnail d-block" href="single-product.html"><img
+                    class="mb-2" src="img\product\dresses\4.png" alt=""></a><a class="product-title d-block"
+                  href="single-product.html">Olay小白瓶</a>
+                <p class="sale-price">70元</p>
+                <div class="product-rating"><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i></div><a class="btn btn-success btn-sm add2cart-notify" href="catagory-dresses.html"><i
+                    class="lni lni-plus"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- Single Top Product Card-->
+          <div class="col-6 col-sm-4 col-lg-3">
+            <div class="card top-product-card mb-3">
+              <div class="card-body"><span class="badge badge-success">深圳校区</span><a class="wishlist-btn" href="catagory-dresses.html"><i
+                    class="lni lni-heart"></i></a><a class="product-thumbnail d-block" href="single-product.html"><img
+                    class="mb-2" src="img\product\dresses\5.png" alt=""></a><a class="product-title d-block"
+                  href="single-product.html">科颜氏金盏花水</a>
+                <p class="sale-price">80元</p>
+                <div class="product-rating"><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i></div><a class="btn btn-success btn-sm add2cart-notify" href="catagory-dresses.html"><i
+                    class="lni lni-plus"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- Single Top Product Card-->
+          <div class="col-6 col-sm-4 col-lg-3">
+            <div class="card top-product-card mb-3">
+              <div class="card-body"><span class="badge badge-primary">广州东校</span><a class="wishlist-btn" href="catagory-dresses.html"><i
+                    class="lni lni-heart"></i></a><a class="product-thumbnail d-block" href="single-product.html"><img
+                    class="mb-2" src="img\product\dresses\6.png" alt=""></a><a class="product-title d-block"
+                  href="single-product.html">MAC水漾544</a>
+                <p class="sale-price">50元</p>
+                <div class="product-rating"><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i></div><a class="btn btn-success btn-sm add2cart-notify" href="catagory-dresses.html"><i
+                    class="lni lni-plus"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- Single Top Product Card-->
+          <div class="col-6 col-sm-4 col-lg-3">
+            <div class="card top-product-card mb-3">
+              <div class="card-body"><span class="badge badge-success">深圳校区</span><a class="wishlist-btn" href="catagory-dresses.html"><i
+                    class="lni lni-heart"></i></a><a class="product-thumbnail d-block" href="single-product.html"><img
+                    class="mb-2" src="img\product\dresses\7.png" alt=""></a><a class="product-title d-block"
+                  href="single-product.html">优衣库全新polo5件</a>
+                <p class="sale-price">800元</p>
+                <div class="product-rating"><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i></div><a class="btn btn-success btn-sm add2cart-notify" href="catagory-dresses.html"><i
+                    class="lni lni-plus"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- Single Top Product Card-->
+          <div class="col-6 col-sm-4 col-lg-3">
+            <div class="card top-product-card mb-3">
+              <div class="card-body"><span class="badge badge-danger">广州南校</span><a class="wishlist-btn" href="catagory-dresses.html"><i
+                    class="lni lni-heart"></i></a><a class="product-thumbnail d-block" href="single-product.html"><img
+                    class="mb-2" src="img\product\dresses\8.png" alt=""></a><a class="product-title d-block"
+                  href="single-product.html">清新蓝色草帽</a>
+                <p class="sale-price">30元</span></p>
+                <div class="product-rating"><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i
+                    class="lni lni-star-filled"></i></div><a class="btn btn-success btn-sm add2cart-notify" href="catagory-dresses.html"><i
+                    class="lni lni-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer Nav-->
+  <div class="footer-nav-area" id="footerNav">
+    <div class="container h-100 px-0">
+      <div class="suha-footer-nav h-100">
+        <ul class="h-100 d-flex align-items-center justify-content-between">
+          <li class="active"><a href="home.html"><i class="lni lni-home"></i>首页</a></li>
+          <li><a href="message.html"><i class="lni lni-life-ring"></i>在线客服</a></li>
+          <!-- <li><a href="cart.html"><i class="lni lni-shopping-basket"></i>购物车</a></li> -->
+          <li><a href="pages.html"><i class="lni lni-heart"></i>项目所有页面</a></li>
+          <li><a href="settings.html"><i class="lni lni-cog"></i>设置</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- All JavaScript Files-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.animatedheadline.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jarallax.min.js"></script>
+  <script src="js/jarallax-video.min.js"></script>
+  <script src="js/default/jquery.passwordstrength.js"></script>
+  <script src="js/default/dark-mode-switch.js"></script>
+  <script src="js/default/active.js"></script>
+</body>
+
+</html>
