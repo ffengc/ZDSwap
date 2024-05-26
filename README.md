@@ -96,9 +96,13 @@ run script: `./ChMod.sh ./wwwroot`
 
 **3. Deploy service**
 
+
+
 ```bash
 docker build -t nginx-homepage .
 docker run -d -p 8080:80 nginx-homepage
 ```
 
 **After deployment, just access the server port 8080.**
+
+## Thanks to Suha-Multipurpose Ecommerce Mobile HTML Template for providing the template
