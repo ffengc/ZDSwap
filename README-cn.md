@@ -1,31 +1,29 @@
 # ZDSwap
-Second-hand transaction applet for Sun Yat-sen University: ZDSwap
+面向中山大学的二手交易小程序：校园转转
 
 - **[简体中文](./README-cn.md)**
 - **[English](./README.md)**
 
-
 <div align="center">
 
-## Second-hand transaction applet for Sun Yat-sen University: ZDSwap
+## 面向中山大学的二手交易小程序：校园转转
 [📄[Document](hhttps://github.com/ffengc/ZDSwap/blob/main/README.md)] &emsp; [💻[Platform](https://www.nginx.org.cn/)] &emsp; <br>
 [🌅[Code](https://github.com/ffengc/ZDSwap)] &emsp;<br>
-
 
 </div>
 
 ***
 
 - [ZDSwap](#zdswap)
-  - [Second-hand transaction applet for Sun Yat-sen University: ZDSwap](#second-hand-transaction-applet-for-sun-yat-sen-university-zdswap)
-  - [🌟Collaborators🌟](#collaborators)
-  - [📃Project page structure](#project-page-structure)
-  - [📸Screenshots](#screenshots)
-  - [🐳Deploy nginx service with docker](#deploy-nginx-service-with-docker)
+  - [面向中山大学的二手交易小程序：校园转转](#面向中山大学的二手交易小程序校园转转)
+  - [🌟项目成员🌟](#项目成员)
+  - [📃项目页面结构](#项目页面结构)
+  - [📸项目效果](#项目效果)
+  - [🐳用docker部署nginx服务](#用docker部署nginx服务)
 
 ***
 
-## 🌟Collaborators🌟
+## 🌟项目成员🌟
 
 - Yufc([ffengc](https://github.com/ffengc))
 - Songwh([ssugarwh](https://github.com/ssugarwh))
@@ -34,31 +32,31 @@ Second-hand transaction applet for Sun Yat-sen University: ZDSwap
 - Liy([*](#))
 
 
-## 📃Project page structure
+## 📃项目页面结构
 
-The picture below shows all the pages of this project.
+下图展示了本项目所有页面。
 
 ![](./assets/structure.png)
 
-## 📸Screenshots
+## 📸项目效果
 
-**home page:**
+**主页面:**
 
 ![](./assets/home.png)
 
-Other pages are not shown here.
+其他页面不在这里展示了。
 
-## 🐳Deploy nginx service with docker
+## 🐳用docker部署nginx服务
 
-Clone the repository:
+克隆仓库：
 ```bash
 https://github.com/ffengc/ZDSwap.git
 cd ZDSwap;
 ```
 
-Deploy using dockerfile:
+使用dockerfile进行部署：
 
-**1. Create dockerfile**
+**1. 创建dockerfile文件**
 
 ```dockerfile
 FROM nginx:latest
@@ -67,38 +65,38 @@ EXPOSE 8080
 CMD ["nginx", "-g", "daemon off;"]
 ```
 
-**2. Add permissions to files**
+**2. 给文件添加权限**
 
-Create script`ChMod.sh`
+创建脚本`ChMod.sh`
 
 ```bash
 #!/bin/bash
 # write by Yufc
-# Check if directory is provided as parameter
+# 检查是否提供了目录作为参数
 if [ "$#" -ne 1 ]; then
     echo "Usage: $0 <directory>"
     exit 1
 fi
-# Get directory parameters
+# 获取目录参数
 directory=$1
-# Check if directory exists
+# 检查目录是否存在
 if [ ! -d "$directory" ]; then
     echo "Error: Directory does not exist."
     exit 1
 fi
-# Add permissions to all files and folders in the directory and its subdirectories
+# 为目录及其子目录下的所有文件和文件夹增加权限
 find "$directory" -type d -exec chmod a+rwx {} \;
 find "$directory" -type f -exec chmod a+rwx {} \;
 echo "ALL permissions have been added to all files and directories within $directory."
 ```
 
-run script: `./ChMod.sh ./wwwroot`
+运行脚本： `./ChMod.sh ./wwwroot`
 
-**3. Deploy service**
+**3. 部署服务**
 
 ```bash
 docker build -t nginx-homepage .
 docker run -d -p 8080:80 nginx-homepage
 ```
 
-**After deployment, just access the server port 8080.**
+**部署后访问服务器8080端口即可。**
