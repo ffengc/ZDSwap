@@ -1,4 +1,4 @@
-![image](https://github.com/ssugarwh/ZDSwap_/assets/118700646/0b2513c6-58c3-408b-8565-04cf8f2a7c17)# ZDSwap
+# ZDSwap
 面向中山大学的二手交易小程序：校园转转
 
 - **[简体中文](./README-cn.md)**
