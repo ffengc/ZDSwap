@@ -22,6 +22,7 @@ Second-hand transaction applet for Sun Yat-sen University: ZDSwap
   - [📃Project page structure](#project-page-structure)
   - [📸Screenshots](#screenshots)
   - [🐳Deploy nginx service with docker](#deploy-nginx-service-with-docker)
+  - [cite](#cite)
 
 ***
 
@@ -105,4 +106,6 @@ docker run -d -p 8080:80 nginx-homepage
 
 **After deployment, just access the server port 8080.**
 
-## Thanks to Suha-Multipurpose Ecommerce Mobile HTML Template for providing the template
+## cite
+
+Thanks to Suha-Multipurpose Ecommerce Mobile HTML Template for providing the template
