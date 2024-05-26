@@ -1,4 +1,4 @@
-# ZDSwap
+![image](https://github.com/ssugarwh/ZDSwap_/assets/118700646/0b2513c6-58c3-408b-8565-04cf8f2a7c17)# ZDSwap
 面向中山大学的二手交易小程序：校园转转
 
 - **[简体中文](./README-cn.md)**
@@ -100,3 +100,5 @@ docker run -d -p 8080:80 nginx-homepage
 ```
 
 **部署后访问服务器8080端口即可。**
+
+## 感谢Suha-Multipurpose Ecommerce Mobile HTML Template提供模板
