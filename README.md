@@ -29,7 +29,7 @@ Second-hand transaction applet for Sun Yat-sen University: ZDSwap
 
 - Yufc([ffengc](https://github.com/ffengc))
 - Songwh([ssugarwh](https://github.com/ssugarwh))
-- Linjy([ssugarwh](https://github.com/ssugarwh))
+- Linjy([jfightyr](https://github.com/jfightyr))
 - Pengyx([KuroisuSan](https://github.com/KuroisuSan))
 - Liy([*](#))
 
