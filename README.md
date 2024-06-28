@@ -32,7 +32,7 @@ Second-hand transaction applet for Sun Yat-sen University: ZDSwap
 - Songwh([ssugarwh](https://github.com/ssugarwh))
 - Linjy([jfightyr](https://github.com/jfightyr))
 - Pengyx([KuroisuSan](https://github.com/KuroisuSan))
-- Liy([ly245422]([#](https://github.com/ly245422))
+- Liy([ly245422](https://github.com/ly245422))
 
 
 ## 📃Project page structure
